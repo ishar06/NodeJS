@@ -30,7 +30,17 @@ app
         return res.json(user);
     })
     .patch((req,res)=>{
-        return res.json({status : "pending"});
+        const id = Number(req.params.id);
+        const userIndex = users.find((user)=> user.id === id);
+        if (userIndex === -1){
+            return res.status(404).json({error:"User Not Found"});
+        }
+        users[userIndex] = {...users[userIndex], ...req.body};
+        
+
+
+
+
     })
     .delete((req,res)=>{
         return res.json({status : "pending"});
@@ -50,6 +60,7 @@ app.post("/api/users", (req, res) => {
         return res.json({status: "Success", id: users.length})
     });
 });
+
 
 
 app.listen(PORT, ()=> console.log("Server started at http://localhost:"+PORT));
