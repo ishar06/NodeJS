@@ -1,0 +1,7 @@
+This is data from file displayed on the homepage.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum neque at lectus tempor, nec tempor lorem porttitor. Sed eu efficitur nisi. Pellentesque vel turpis nisi. Nam vestibulum turpis in ex lacinia, ac gravida tellus tincidunt. Aenean non augue eu nulla accumsan feugiat. In hac habitasse platea dictumst.
+
+Suspendisse potenti. Donec pulvinar, nunc sed dignissim dapibus, sem leo malesuada ex, sed scelerisque diam quam a purus. Integer in lacus libero. Praesent ultrices quam quis massa pharetra, vel sodales nisi tincidunt. Nullam imperdiet lacinia rhoncus. Morbi fringilla tincidunt augue ut porta.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris venenatis sapien eget est blandit, nec sagittis mi rhoncus. Fusce maximus est nec felis interdum scelerisque. Donec pretium erat non tellus tincidunt, ac lacinia odio fringilla.

@@ -1,0 +1,12 @@
+{
+  "name": "10jun",
+  "version": "1.0.0",
+  "description": "First node package/file",
+  "main": "script1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node script1.js"
+  },
+  "author": "Ishardeep Singh",
+  "license": "ISC"
+}

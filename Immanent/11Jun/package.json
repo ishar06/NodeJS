@@ -1,0 +1,12 @@
+{
+  "name": "11jun",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "urls":"node urls.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

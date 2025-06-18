@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Timer</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            padding: 30px;
+            text-align: center;
+        }
+        #timer {
+            margin-bottom: 25px;
+            font-size: 36px;
+            color: blue;
+        }
+        button {
+            cursor: pointer;
+            padding: 5px 10px;
+            font-size: 8px;
+            color: darkblue;
+        }
+        a {
+            display: block;
+            margin-top: 25px;
+            text-decoration: underline;
+            color: darkblue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="timer">00:00:00</div>
+    <button onclick="startTimer()">Start</button>
+    <button onclick="stopTimer()">Stop</button>
+    <button onclick="resumeTimer()">Resume</button>
+    <a href="/">Back to Home</a>
+
+    <script>
+        let seconds = 0;
+        let interval;
+
+        function formatTime(s) {
+            const hrs = String(Math.floor(s / 3600)).padStart(2, '0');
+            const mins = String(Math.floor((s % 3600) / 60)).padStart(2, '0');
+            const secs = String(Math.floor(s % 60)).padStart(2, '0');
+            return hrs + ":" + mins + ":" + secs;
+        }
+        function updateTime() {
+            document.getElementById("timer").innerText = formatTime(seconds);
+        }
+        function startTimer() {
+            clearInterval(interval);
+            seconds = 0;
+            updateTime();
+            interval = setInterval(() => {
+                seconds++;
+                updateTime();
+            }, 1000);
+        }
+        function stopTimer() {
+            clearInterval(interval);
+        }
+        function resumeTimer() {
+            clearInterval(interval);
+            interval = setInterval(() => {
+                seconds++;
+                updateTime();
+            }, 1000);
+        }
+    </script>
+</body>
+</html>

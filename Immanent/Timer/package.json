@@ -1,0 +1,11 @@
+{
+  "name": "15jun",
+  "version": "1.0.0",
+  "main": "revision.js",
+  "scripts": {
+    "start":"node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
