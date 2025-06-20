@@ -97,4 +97,30 @@ app.post("/api/users",(req,res)=>{
 
 })
 
+// app.post("/api/users", (req, res) => {
+//     const body = req.body;
+//     const email = body.email;
+
+//     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+//     if (!email || !emailRegex.test(email)) {
+//         return res.status(400).json({ status: "error", message: "Invalid or missing email" });
+//     }
+
+//     const emailExists = users.some((user) => user.email === email);
+//     if (emailExists) {
+//         return res.status(409).json({ status: "error", message: "Email already exists" });
+//     }
+
+//     const newUser = { ...body, id: users.length + 1 };
+//     users.push(newUser);
+
+//     fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (err) => {
+//         if (err) {
+//             return res.status(500).json({ status: "error", error: err.message });
+//         }
+//         return res.json({ status: "Success", id: newUser.id });
+//     });
+// });
+
 app.listen(PORT, ()=> console.log("Server started at http://localhost:"+PORT));
