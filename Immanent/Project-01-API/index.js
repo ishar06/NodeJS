@@ -7,12 +7,14 @@ const app = express();
 app.use(express.urlencoded({extended:false}));
 
 app.get("/users",(req,res)=>{
-    const html = `
-    <ul>
-    ${users.map((user)=> `<li>${user.first_name}</li>`).join("")}
-    </ul>
-    `
-    return res.send(html);
+    fs.readFile("./users.html","utf-8",(err,html)=>{
+        if (err){
+            res.writeHead(500, {"content-type":"text/plain"});
+            return res.end("Failed to load users.html");
+        }
+        res.writeHead(200, {"content-type":"text/html"});
+        return res.end(html);
+    })
 })
 
 app.get("/api/users",(req,res)=>{
@@ -96,5 +98,6 @@ app.post("/api/users",(req,res)=>{
     })
 
 })
+
 
 app.listen(PORT, ()=> console.log("Server started at http://localhost:"+PORT));

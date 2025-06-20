@@ -17,11 +17,11 @@
   },
   {
     "id": 3,
-    "first_name": "Nessa",
-    "last_name": "Cassells",
-    "email": "ncassells2@example.com",
+    "first_name": "Jane",
+    "last_name": "Shell",
+    "email": "shell@gmail.com",
     "gender": "Female",
-    "job_title": "Graphic Designer"
+    "job_title": "UI Designer"
   },
   {
     "id": 4,
@@ -3992,35 +3992,43 @@
     "job_title": "Product Engineer"
   },
   {
-    "id": 500,
-    "first_name": "Barbara-anne",
-    "last_name": "Vedyasov",
-    "email": "bvedyasovdv@cbc.ca",
-    "gender": "Female",
-    "job_title": "Tax Accountant"
-  },
-  {
-    "id": 501,
-    "first_name": "Ishar",
+    "first_name": "Ishardeep",
     "last_name": "Singh",
-    "email": "singhishardeep@gmail.com",
-    "gender": "male",
-    "job_title": "software dev"
+    "email": "singhishardeep06@gmail.com",
+    "gender": "Male",
+    "job_title": "Software Dev",
+    "id": 500
   },
   {
     "first_name": "John",
     "last_name": "Doe",
     "email": "john@gmail.com",
-    "gender": "male",
-    "job_title": "UI Designer",
+    "gender": "Male",
+    "job_title": "Graphic Designer",
+    "id": 501
+  },
+  {
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "email": "jane@gmail.com",
+    "gender": "Female",
+    "job_title": "UI-UX Designer",
     "id": 502
   },
   {
-    "first_name": "ABC",
-    "last_name": "XYZ",
-    "email": "abc@gmail.com",
-    "gender": "female",
-    "job_title": "UX Designer",
+    "first_name": "Roronoa",
+    "last_name": "Zoro",
+    "email": "roronoa@gmail.com",
+    "gender": "Male",
+    "job_title": "Swordsmith",
     "id": 503
+  },
+  {
+    "first_name": "Vinsmoke",
+    "last_name": "Sanji",
+    "email": "sanji@gmail.com",
+    "gender": "Male",
+    "job_title": "Cook",
+    "id": 504
   }
 ]
