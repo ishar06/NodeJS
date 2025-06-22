@@ -5,6 +5,7 @@ const PORT = 8000;
 const app = express();
 
 app.use(express.urlencoded({extended:false}));
+app.use(express.json());  // Add this line to handle JSON requests
 
 app.get("/users",(req,res)=>{
     fs.readFile("./users.html","utf-8",(err,html)=>{
