@@ -7,10 +7,12 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node middleware.js",
-    "http": "node HTTPheaders.js"
+    "start": "nodemon middleware.js",
+    "http": "nodemon HTTPheaders.js",
+    "status": "nodemon statusCodes.js"
   },
   "dependencies": {
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "nodemon": "^3.1.10"
   }
 }

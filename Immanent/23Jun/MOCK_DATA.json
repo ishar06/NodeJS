@@ -798,5 +798,21 @@
         "email": "sreuben2r@tamu.edu",
         "gender": "Male",
         "job_title": "Occupational Therapist"
+    },
+    {
+        "first_name": "Vinsmoke",
+        "last_name": "Sanji",
+        "email": "sanjigmail.com",
+        "gender": "Male",
+        "job_title": "Cook",
+        "id": 101
+    },
+    {
+        "first_name": "Vinsmoke",
+        "last_name": "Sanji",
+        "email": "sanjigmail.com",
+        "gender": "Male",
+        "job_title": "Cook",
+        "id": 102
     }
 ]

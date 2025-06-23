@@ -1,0 +1,21 @@
+Informational Responses (100 - 199)
+Successful Responses    (200 - 299)
+Redirection messages    (300 - 399)
+Client Error Responses  (400 - 499)
+Server Error Responses  (500 - 599)
+
+
+200 - OK
+201 - Created
+202 - Accepted
+
+
+400 - Bad request
+401 - Unauthorized
+402 - Payment Required
+403 - Forbidden
+404 - Not Found
+
+
+500 - Internal Server Error
+501 - Not Implemented
