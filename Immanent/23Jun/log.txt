@@ -1,0 +1,5 @@
+1750657713996 || GET || /api/users
+1750657738661 || GET || /api/users/
+711750657800520 || POST || /api/users/
+1750657858555 || POST || /api/users/
+1750657923122 || GET || /api/users || ::1 
